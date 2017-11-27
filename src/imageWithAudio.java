@@ -41,7 +41,7 @@ public class imageWithAudio extends Application{
             String url;
             String prefix;
             String directory = "/image/";
-            String imageName = ".gif";
+            String imageName = ".png";
             long speed;
             int numImages;
             int image = 1;
