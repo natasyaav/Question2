@@ -24,13 +24,15 @@ import javafx.geometry.Pos;
  * Natasya Virgichalia
  * Date: 11/26/2017
  * Question 16.23
+ * Enter "E" for Image file prefix
+ * Enter "10" for Number of Images
  */
 public class imageWithAudio extends Application{
 
         @Override
         public void start(Stage primaryStage) throws Exception {
             AnimationBox pane = new AnimationBox();
-            primaryStage.setScene(new Scene(pane, 500, 500));
+            primaryStage.setScene(new Scene(pane, 500, 650));
             primaryStage.setTitle("Image Animation with Audio");
             primaryStage.show();
         }
